@@ -7,7 +7,7 @@ const trustItems = [
   { icon: FaShieldAlt, title: 'FSSAI Certified', desc: 'Government registered and certified dairy farm.' },
   { icon: GiMilkCarton, title: '100% Pure Milk', desc: 'Fresh milk delivered daily from our farm.' },
   { icon: FaCheckCircle, title: 'No Chemicals', desc: 'Hygienic processing with a quality-first approach.' },
-  { icon: FaCheckCircle, title: 'Local Farm Fresh', desc: 'Trusted locally in Kanekal & Kalyandurg.' },
+  { icon: FaCheckCircle, title: 'Local Farm Fresh', desc: 'Trusted locally in Kanekal, Rayadurgam & Kalyandurg.' },
 ];
 
 const Trust = () => {

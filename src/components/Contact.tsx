@@ -62,7 +62,7 @@ const Contact = () => {
               transition={{ duration: 0.2 }}
             >
               <h3 className="text-lg sm:text-xl font-semibold text-green-900 mb-2">Areas Served</h3>
-              <p className="text-green-700 text-sm sm:text-base">Kanekal & Kalyandurg</p>
+              <p className="text-green-700 text-sm sm:text-base">Kanekal, Rayadurgam & Kalyandurg</p>
             </motion.div>
             <motion.div
               className="rounded-xl p-6 bg-white border border-green-100 shadow-sm"

@@ -571,7 +571,6 @@ Please confirm my subscription.`;
                   className="w-full border border-green-200 rounded p-3 focus:outline-none focus:border-green-500 focus:ring-2 focus:ring-green-400/30 focus:shadow-md resize-none transition-shadow"
                   required
                 />
-
                 {/* Location Field */}
                 <label className="block text-sm font-semibold text-green-900">
                   Select Location *
@@ -589,9 +588,9 @@ Please confirm my subscription.`;
                 >
                   <option value="">Select Location *</option>
                   <option value="Kanekal">Kanekal</option>
+                  <option value="Rayadurgam">Rayadurgam</option>
                   <option value="Kalyandurg">Kalyandurg</option>
                 </select>
-
                 {/* Geolocation Button */}
                 <div className="mt-3 flex flex-col gap-2">
                   <button
@@ -712,6 +711,26 @@ Please confirm my subscription.`;
                   />
                   <span className="text-green-900 font-medium">First time customer</span>
                 </label>
+                {/* Location Field */}
+                <label className="block text-sm font-semibold text-green-900">
+                  Select Location *
+                </label>
+                <select
+                  value={customer.location}
+                  onChange={(e) =>
+                    setCustomer((prev) => ({
+                      ...prev,
+                      location: e.target.value,
+                    }))
+                  }
+                  className="w-full border border-green-200 rounded p-3 focus:outline-none focus:border-green-500 focus:ring-2 focus:ring-green-400/30 focus:shadow-md transition-shadow"
+                  required
+                >
+                  <option value="">Select Location *</option>
+                  <option value="Kanekal">Kanekal</option>
+                  <option value="Rayadurgam">Rayadurgam</option>
+                  <option value="Kalyandurg">Kalyandurg</option>
+                </select>
                 {/* Geolocation Button */}
                 <div className="mt-3 flex flex-col gap-2">
                   <button

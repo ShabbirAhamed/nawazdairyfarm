@@ -21,7 +21,7 @@ const About = () => {
         >
           <h2 className="text-2xl sm:text-3xl font-bold text-green-900">About Nawaz Dairy Farm</h2>
           <p className="text-sm sm:text-base text-green-700 mt-3">
-            Trusted local dairy in Kanekal, serving fresh milk, ghee, paneer, and curd to Kanekal and Kalyandurg.
+            Trusted local dairy in Kanekal, serving fresh milk, ghee, paneer, and curd to Kanekal, Rayadurgam and Kalyandurg.
           </p>
         </motion.div>
         <div className="grid md:grid-cols-2 gap-10 items-center">
