@@ -63,7 +63,7 @@ const products: Product[] = [
 ];
 
 // WhatsApp contact number (without + sign)
-const WHATSAPP_NUMBER = '919182879423';
+const WHATSAPP_NUMBER = '919866184313';
 
 interface CustomerInfo {
   name: string;

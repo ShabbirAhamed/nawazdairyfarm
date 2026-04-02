@@ -45,7 +45,7 @@ const Contact = () => {
                 WhatsApp Order
               </h3>
               <motion.a
-                href="https://wa.me/919182879423"
+                href="https://wa.me/9866184313"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ y: -2, scale: 1.02 }}
@@ -53,8 +53,26 @@ const Contact = () => {
                 className="text-green-700 hover:text-green-900 inline-flex items-center gap-2 text-sm sm:text-base"
               >
                 <FaPhoneAlt className="h-4 w-4" />
-                +91 91828 79423
+                +91 9866184313
               </motion.a>
+               {/* Call */}
+  <motion.a
+    href="tel:+919985478197"
+    whileHover={{ y: -2, scale: 1.02 }}
+    whileTap={{ scale: 0.98 }}
+    className="text-green-700 flex items-center gap-2"
+  >
+    <FaPhoneAlt /> Call Now at +91 9985478197
+  </motion.a>
+   {/* Call */}
+  <motion.a
+    href="tel:+919701666859"
+    whileHover={{ y: -2, scale: 1.02 }}
+    whileTap={{ scale: 0.98 }}
+    className="text-green-700 flex items-center gap-2"
+  >
+    <FaPhoneAlt /> Call Now at +91 9701666859
+  </motion.a>
             </motion.div>
             <motion.div
               className="rounded-xl p-6 bg-white border border-green-100 shadow-sm"

@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { FaWhatsapp } from 'react-icons/fa';
 
-const WHATSAPP_NUMBER = '919182879423';
+const WHATSAPP_NUMBER = '919866184313';
 
 export default function FloatingWhatsApp() {
   const href = `https://wa.me/${WHATSAPP_NUMBER}`;

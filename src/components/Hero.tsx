@@ -154,7 +154,7 @@ const Hero = () => {
                 Order Now on WhatsApp
               </motion.button>
               <motion.button
-                onClick={() => window.location.href = 'https://wa.me/919182879423?text=' + encodeURIComponent('Hello Nawaz Dairy Farm, I would like to order milk.')}
+                onClick={() => window.location.href = 'https://wa.me/919866184313?text=' + encodeURIComponent('Hello Nawaz Dairy Farm, I would like to order milk.')}
                 variants={buttonVariants}
                 custom={1.3}
                 whileHover={{ y: -2, scale: 1.02 }}

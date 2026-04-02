@@ -52,7 +52,7 @@ const Navbar = () => {
   // WhatsApp order function
   const handleWhatsAppOrder = () => {
     const message = encodeURIComponent("Hello Nawaz Dairy Farm! I'd like to place an order.");
-    window.open(`https://wa.me/919182879423?text=${message}`, '_blank');
+    window.open(`https://wa.me/919866184313?text=${message}`, '_blank');
   };
 
   // Toggle dark mode
