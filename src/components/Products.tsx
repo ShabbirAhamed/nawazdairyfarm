@@ -281,14 +281,15 @@ Location: ${locationText}
 
 Order Details:
 ${orderDetails}
-💰 Payment Options:
 
-🔗 Scan & Pay (QR):
+Payment Options:
+
+Scan & Pay (QR):
 https://nawazdairyfarm.onrender.com/qr.jpeg
 
-📸 After payment, please share the screenshot.
+After payment, please share the screenshot.
 
-Thank you 🙏`;
+Thank you for your order!`;
 
 
     // Encode message for URL (handles special characters and spaces)
