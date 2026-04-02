@@ -280,7 +280,16 @@ Address: ${customer.address}
 Location: ${locationText}
 
 Order Details:
-${orderDetails}`;
+${orderDetails}
+💰 Payment Options:
+
+🔗 Scan & Pay (QR):
+https://nawazdairyfarm.onrender.com/qr.jpeg
+
+📸 After payment, please share the screenshot.
+
+Thank you 🙏`;
+
 
     // Encode message for URL (handles special characters and spaces)
     const encodedMessage = encodeURIComponent(message);
