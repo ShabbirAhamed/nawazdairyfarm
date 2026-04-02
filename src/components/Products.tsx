@@ -285,6 +285,7 @@ ${orderDetails}
 Payment Options:
 
 Scan & Pay (QR):
+
 https://nawazdairyfarm.onrender.com/qr.jpeg
 
 After payment, please share the screenshot.
@@ -350,7 +351,15 @@ Total Price: ₹${originalTotal}
 Discount: ₹${discount}
 Final Price: ₹${finalTotal}
 
-Please confirm my subscription.`;
+Please confirm my subscription.
+
+Scan & Pay (QR):
+
+https://nawazdairyfarm.onrender.com/qr.jpeg
+
+After payment, please share the screenshot.
+
+Thank you for your subscription!`;
 
     const encodedMessage = encodeURIComponent(message);
     const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodedMessage}`;
